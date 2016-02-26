@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["James Middlemiss"]
   spec.email         = ["middlemissj.usa@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = "Wrapper for the TMDB API."
+  spec.description   = "Returns hash of information about either TV or Movie"
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 

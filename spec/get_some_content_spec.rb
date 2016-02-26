@@ -56,6 +56,6 @@ RSpec.describe BatShoes::Tmdb::GetSomeContent do
     end
 
     it {expect(subject['title']).to eq "Batman"}
-    it {expect(subject['runtime']). to be_class Time}
+    it {expect(subject['runtime']).to be >= 0}
   end
 end
